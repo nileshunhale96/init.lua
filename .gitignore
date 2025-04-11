@@ -1,2 +1,36 @@
 plugin/packer_compiled.lua
 
+# Ignore plugin downloads (like lazy.nvim plugins)
+./lazy/
+
+# Swap, backup and undo files (common for Neovim/Vim)
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.undo
+
+# Session files (optional)
+session.vim
+Session.vim
+
+# LSP logs and caches
+log/
+*.log
+.lsp/
+
+# Compiled Lua (if any)
+*.luac
+
+# Node/npm stuff (for plugins that use Node)
+node_modules/
+package-lock.json
+yarn.lock
+
+# macOS metadata
+.DS_Store
+
+# Other user/editor generated files
+tags
+
