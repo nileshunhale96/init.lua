@@ -78,3 +78,6 @@ end)
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
+-- NILESH ADDED Needed for work
+vim.keymap.set("n", "<leader>tt", ":split | terminal<CR>", { desc = "Open terminal in horizontal split" })
+vim.keymap.set("n", "<leader>tv", ":vsplit | terminal<CR>", { desc = "Open terminal in vertical split" })
